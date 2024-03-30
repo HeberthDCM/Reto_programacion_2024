@@ -34,6 +34,8 @@ v_str = "variable" # String
 v_bool = True # Boolean
 v_float = 1.5 # Float
 v_none = None # Sin valor
+v_complex = 1+2j
+
 
 
 print(type(v_int))
@@ -41,15 +43,25 @@ print(type(v_str))
 print(type(v_bool))
 print(type(v_float))
 print(type(v_none))
+print(type(v_complex))
 
 # HOLA MUNDO EN PYTHON
 print("Hola mundo desde Python")
 
+import os
+print(f'Hola mundo, {os.getlogin()}! How are you?')
+
 # LISTAS
 lista = [1,2,3,4,5]
+print(type(lista))
 
 # TUPLAS
 tupla = (1,2,3,4,5)
-
+print(type(tupla))
 # DICCIONARIOS
 diccionario ={"Nombre":"Juan","DNI":"12345", "Edad":23}
+print(type(diccionario))
+
+# SET
+set = {1,2,3,4,5}
+print(type(set))
