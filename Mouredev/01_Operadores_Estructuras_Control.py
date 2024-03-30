@@ -18,6 +18,7 @@
 suma = 9 + 3
 operadorResta = 9 - 3
 multiplicacion = 9 * 3
-division = 9 / 3
+division = 9 /3
 
-print("Suma : " 
+import os
+print(f'Hello, {os.getlogin()}! How are you?')
