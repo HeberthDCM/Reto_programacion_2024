@@ -15,9 +15,10 @@
 #  
 #   Seguro que al revisar detenidamente las posibilidades has descubierto algo nuevo.
 
-suma = 9 + 3
+operadorSuma = 9 + 3
 operadorResta = 9 - 3
-multiplicacion = 9 * 3
-division = 9 /3
+operadorMultiplicacion = 9 * 3
+operadorDivision = 9 /3
 
-print('Suma : ', suma)
+print('Suma : ',operadorSuma)
+print(f'Resta : {operadorResta}')
