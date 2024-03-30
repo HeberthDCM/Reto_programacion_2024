@@ -15,10 +15,29 @@
 #  
 #   Seguro que al revisar detenidamente las posibilidades has descubierto algo nuevo.
 
+# OPERADORES ARITMETICOS
 operadorSuma = 9 + 3
 operadorResta = 9 - 3
 operadorMultiplicacion = 9 * 3
-operadorDivision = 9 /3
+operadorDivision = 9 / 3
+operadorModulo = 9 % 3
+operadorPotencia = 9 ** 3
+operadorDivisionEntera = 9//4
 
+print("\nOperadores Aritmeticos")
 print('Suma : ',operadorSuma)
 print(f'Resta : {operadorResta}')
+print("Multiplicacion : ", operadorMultiplicacion)
+print("Division : ", operadorDivision)
+print("Modulo : ", operadorModulo)
+print("Potencia : ", operadorPotencia)
+print("Division Entera : ", operadorDivisionEntera)
+
+#OPERADORES RELACIONALES
+print("\nOperadores relacionales")
+print("12 > 3 : " ,12>3)
+print("12 < 3 : " ,12<3)
+print("12 == 3 : ",12==3)
+print("12>=3", 12>=3)
+print("12<=3", 12<=3)
+print("12!=3", 12!=3) #Devuelve True si ambos operandos no son iguales
